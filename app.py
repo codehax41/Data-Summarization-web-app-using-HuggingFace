@@ -11,8 +11,8 @@ def Index():
 @app.route("/Summarize",methods=["GET","POST"])
 def Summarize():
     if req.method== "POST":
-        API_URL = "https://api-inference.huggingface.co/models/sshleifer/distilbart-cnn-12-6"
-        headers = {"Authorization": "Bearer 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"}
+        API_URL = ""
+        headers = {}
 
         data=req.form["data"]
 
